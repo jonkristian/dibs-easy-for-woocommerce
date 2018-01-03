@@ -16,6 +16,8 @@
     }
     body.dibs-selected #dibs-order-review #order_review, body.dibs-selected #dibs-order-review #order_review_heading, body.dibs-selected #dibs-order-review .woocommerce-additional-fields{
         display:block;
+        float:none;
+        width:auto;
     }
 }
 
