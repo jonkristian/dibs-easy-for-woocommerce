@@ -65,6 +65,7 @@ if ( ! class_exists( 'DIBS_Easy' ) ) {
 			include_once( plugin_basename( 'classes/class-dibs-order-submission-failure.php' ) );
 			include_once( plugin_basename( 'classes/class-dibs-admin-notices.php' ) );
 			include_once( plugin_basename( 'includes/dibs-country-converter-functions.php' ) );
+			include_once( plugin_basename( 'classes/class-dibs-gdpr.php' ) );
 			
 			load_plugin_textdomain( 'dibs-easy-for-woocommerce', false, plugin_basename( dirname( __FILE__ ) ) . '/languages' );
 			
